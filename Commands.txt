@@ -1,0 +1,24 @@
+Commands Anaconda:
+
+1.) Öffne cmd, 
+    Öffne Pfad
+	cd C:\Users\os5595e\Desktop\FC_HMS
+
+2.) Zum Aktivieren einer bestehenden virtuellen Umgebung mit Anaconda:
+	conda activate NAME_VIRT_ENV --> Bsp.: conda activate fhm
+
+3.) Zum Öffnen von Visual Studio Code:
+	code .
+
+4.) Zum Deaktivieren einer Anaconda Virtuellen Umgebung:
+	conda deactivate
+
+5.) Zum Erstellen einer neuen virtuellen Umgebung mit Anaconda:
+	conda create --name NAME_VIRT_ENV --> Bsp.: conda create --name fhm
+
+Zusatzinfo: Zum Erstellen einer neuen virtuellen Umgebung mit Anaconda mit definierter Python Version:
+	conda create --name NAME_VIRT_ENV python==VERSION --> Bsp.: conda create --name fhm python==3.11
+
+6.) Zum Installieren der benötigten Libraries:
+	pip install -r requirements.txt
+
